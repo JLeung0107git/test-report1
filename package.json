@@ -1,0 +1,26 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test:login": "node ./src/test_login.js",
+    "test:logint:logout": "node ./src/test_login_and_logout.js",
+    "test:send": "node ./src/test_send.js",
+    "test:send:msg:only": "node ./src/test_send_msg_only.js",
+    "test:send:emoji:only": "node ./src/test_send_emoji_only.js",
+    "test:recv": "node ./src/test_recv.js",
+    "test:recv:msg": "node ./src/test_recv_msg.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^8.39.1"
+  },
+  "dependencies": {
+    "@wdio/appium-service": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0"
+  }
+}
